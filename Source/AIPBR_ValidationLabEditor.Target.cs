@@ -5,11 +5,11 @@ using System.Collections.Generic;
 
 public class AIPBR_ValidationLabEditorTarget : TargetRules
 {
-	public AIPBR_ValidationLabEditorTarget( TargetInfo Target) : base(Target)
-	{
-		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V5;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6;
-		ExtraModuleNames.Add("AIPBR_ValidationLab");
-	}
+    public AIPBR_ValidationLabEditorTarget(TargetInfo Target) : base(Target)
+    {
+        Type = TargetType.Editor;
+        DefaultBuildSettings = BuildSettingsVersion.V6;
+        IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_7;
+        ExtraModuleNames.Add("AIPBR_ValidationLab");
+    }
 }
