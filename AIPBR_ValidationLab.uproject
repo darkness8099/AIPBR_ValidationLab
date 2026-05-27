@@ -1,22 +1,38 @@
 {
-	"FileVersion": 3,
-	"EngineAssociation": "5.7",
 	"Category": "",
 	"Description": "",
+	"EngineAssociation": "5.7",
+	"FileVersion": 3,
 	"Modules": [
 		{
+			"LoadingPhase": "Default",
 			"Name": "AIPBR_ValidationLab",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"Type": "Runtime"
 		}
 	],
 	"Plugins": [
 		{
-			"Name": "ModelingToolsEditorMode",
 			"Enabled": true,
+			"Name": "ModelingToolsEditorMode",
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Enabled": true,
+			"Name": "UnrealMCP"
+		},
+		{
+			"Enabled": true,
+			"Name": "PythonScriptPlugin"
+		},
+		{
+			"Enabled": true,
+			"Name": "EditorScriptingUtilities"
+		},
+		{
+			"Enabled": true,
+			"Name": "EnhancedInput"
 		}
 	]
 }
